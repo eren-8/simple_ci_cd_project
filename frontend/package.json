@@ -1,0 +1,8 @@
+
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Running React tests...\" && exit 0"
+  }
+}

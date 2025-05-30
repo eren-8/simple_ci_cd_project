@@ -30,15 +30,6 @@ jobs:
         cd backend
         pytest
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
-
-    - name: Install frontend dependencies
-      run: |
-        cd frontend
-        npm install
 
     - name: Run frontend tests
       run: |

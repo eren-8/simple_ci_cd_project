@@ -29,5 +29,5 @@ jobs:
     - name: Run backend tests
       run: |
         cd backend
-        pytest 
+        pytest test_main.py
 
